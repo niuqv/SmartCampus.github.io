@@ -1,0 +1,164 @@
+@import url('https://fonts.font.im/css?family=Kirang+Haerang|Montserrat');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main p{
+    text-align: center;
+}
+
+.headImg {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.headTitle{
+    margin-left: 20%;
+    font-family:'Source-Han-Ligh21ec9eafba221b2';
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .btn {
+        transition: none;
+    }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+a{
+    text-decoration: none;
+}
+
+.begin_say{
+    font-size: 20px;
+}
+
+main section.bt-line {
+    border-bottom: darkgray solid 2px;
+    padding-bottom: 20px;
+}
+
+main h2.main-header{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.se-tell{
+    margin: 0 100px;
+    padding: 3% 0;
+    display: flex;
+}
+
+.se-tell .wisdom-mode{
+    margin: 0 auto;
+}
+
+.se-tell img{
+    width: 500px;
+}
+
+.footer_banner {
+    background-color: #B3B3B3;
+    padding-top: 60px;
+    padding-bottom: 60PX;
+    margin-bottom: 0px;
+    background-image: url("../image/pattern.png");
+    background-repeat: repeat;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #717070;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    border-top-width: 2px;
+}
+
+.button {
+    text-decoration: none;
+    width: 200px;
+    margin: 40px auto auto;
+    padding: 20px 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 3px solid #FFFFFF;
+    color: #FFFFFF;
+    transition: all 0.3s linear;
+}
+.button:hover {
+    background-color: #FEFEFE;
+    color: #C4C4C4;
+    cursor: pointer;
+}
+
+.hero_header {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0px;
+    letter-spacing: 4px;
+}
+
+.footer-choice{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.footer-choice a{
+    font-size: 1.5rem;
+    margin: 0 10rem;
+    text-align: center;
+}
+
+.footer-choice a:hover{
+    text-decoration: underline;
+}
+
+.button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
